@@ -1,16 +1,21 @@
 import Person from '../pictures/Person.png';
 import data from '../bd.json';
 import { useRef } from 'react';
-import { useNavigate, useLocation } from "react-router-dom"
+import { useLocation } from "react-router-dom"
+
+import useSound from 'use-sound'; 
+import win from '../sound/win.mp3'
 
 const QuizComp2 = () => {
-  let navigate = useNavigate();
   const location = useLocation()
   let id = Number(location.pathname.slice(1));
   let key = Number(location.pathname.slice(1));
+  
+  const [play] = useSound(win);
 
 function nextContent(){
     if(document.querySelectorAll('.button').length === 0){
+      play()
       const element = document.querySelector('.ConnentOfDoctor')
       element.textContent = data.contents[key+1].textDoctor
     }

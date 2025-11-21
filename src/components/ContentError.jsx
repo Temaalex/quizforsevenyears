@@ -1,8 +1,12 @@
 import data from '../bd.json';
 import Person from '../pictures/Person.png';
+import useSound from 'use-sound'; 
+import ErrorSound from '../sound/gameOver.mp3'
 
 const Error = () => {
   let text = data.contents[0].error_text_Doctor;
+  const [play] = useSound(ErrorSound);
+  play()
   return (
     <main>
       <div className="header">

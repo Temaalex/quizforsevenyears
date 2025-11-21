@@ -21,11 +21,11 @@ const ContentBox = () => {
       navigate('/TheEnd')
       } else {
         for (let index = 0; index < arr.length; index++) {
-          if (arr [index] !== arr1 [index].toLowerCase()){
+          if (arr[index] !== arr1[index].toLowerCase()){
           const elements = document.querySelectorAll('.boxForNumber')
           elements[index].style.background = 'red'
           }
-          if (arr [index] === arr1 [index].toLowerCase()){
+          if (arr[index] === arr1[index].toLowerCase()){
           const elements = document.querySelectorAll('.boxForNumber')
           elements[index].style.background = '#00fa2e'
           }
@@ -38,7 +38,7 @@ const ContentBox = () => {
   <main>
   <div className="header">
     <div className="TextOfDoctor">
-      <p className="ConnentOfDoctor">Вау, ты решил все задачи, настало время и открыть сундук и узнать что там!</p>
+      <p className="ConnentOfDoctor">Вау, вы решили все задачи, настало время открыть сундук и узнать где спрятаны подарки!</p>
     </div>
     <img className="Person" src={Person} alt="Person"/>
   </div>

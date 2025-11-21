@@ -9,13 +9,21 @@ import img13 from '../pictures/pictureNumberOne.png';
 import img14 from '../pictures/pictureNumberTwo.png';
 import img15 from '../pictures/pictureNumberThree.png';
 
+import useSound from 'use-sound'; 
+import win from '../sound/win.mp3'
+
+
 const QuizTest = () => {
 const location = useLocation()  
 let [key, setKey] = useState(Number(location.pathname.slice(1)));
 let navigate = useNavigate();
 
+const [play] = useSound(win);
+  
+
 function getEnd(){
     if("answer" in data.contents[key+1] === false){
+      play()
       document.querySelector(".buttons__content").remove()
       document.querySelector(".ConnentOfDoctor").innerHTML=data.contents[key+1].textDoctor
     }else{

@@ -1,6 +1,6 @@
 import data from '../bd.json';
 import Person from '../pictures/Person.png';
-import { useLocation } from "react-router-dom"
+
 
 const TheEnd = () => {
   return (

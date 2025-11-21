@@ -2,16 +2,18 @@ import Person from '../pictures/Person.png';
 import data from '../bd.json';
 import { useState } from 'react';
 import { useNavigate, useLocation } from "react-router-dom"
+import useSound from 'use-sound'; 
+import win from '../sound/win.mp3'
 
 const QuizText = () => {
 const location = useLocation()  
 let [key, setKey] = useState(Number(location.pathname.slice(1)));
 let navigate = useNavigate();
+const [play] = useSound(win);
 
 const checked = () => {
   let answer = data.contents[key].answer;
   let check = document.querySelector('.inputAppWords')?.value.replace(/\s/g, "");
-  console.log(check)
   if(check.toLowerCase() === answer) {
     setKey(key + 1)
     document.querySelector('.inputAppWords').value = ''
@@ -31,6 +33,7 @@ const contentOne = [
 const contentTwo = []
 function getContent (){
     if("answer" in data.contents[key] === false){
+      play()
         return contentTwo
     } else {
         return contentOne
