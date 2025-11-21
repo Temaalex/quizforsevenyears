@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/quizforsevenyears/static/css/main.f855e6bc.css",
-    "main.js": "/quizforsevenyears/static/js/main.fb3dcba2.js",
-    "static/js/453.b201ff92.chunk.js": "/quizforsevenyears/static/js/453.b201ff92.chunk.js",
-    "static/media/logo.svg": "/quizforsevenyears/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/quizforsevenyears/static/css/main.4c500d12.css",
+    "main.js": "/quizforsevenyears/static/js/main.67fb2079.js",
+    "static/js/885.17866950.chunk.js": "/quizforsevenyears/static/js/885.17866950.chunk.js",
+    "static/media/pictureNumberOne.png": "/quizforsevenyears/static/media/pictureNumberOne.1f3ac8fb0ce90d3a5b46.png",
+    "static/media/pictureNumberTwo.png": "/quizforsevenyears/static/media/pictureNumberTwo.97cf77fbc18656028c02.png",
+    "static/media/Person.png": "/quizforsevenyears/static/media/Person.2ef5f6d4dff96daaa61a.png",
+    "static/media/pictureNumberThree.png": "/quizforsevenyears/static/media/pictureNumberThree.8a4304107c8fd41ec66d.png",
+    "static/media/win.mp3": "/quizforsevenyears/static/media/win.49e48b3f9846d53e1c95.mp3",
+    "static/media/Box.png": "/quizforsevenyears/static/media/Box.f0083bbb96ac2222c26f.png",
+    "static/media/boxes.png": "/quizforsevenyears/static/media/boxes.fce3a687fc5a200491ce.png",
+    "static/media/gameOver.mp3": "/quizforsevenyears/static/media/gameOver.45be6961f91457a39a6d.mp3",
     "index.html": "/quizforsevenyears/index.html",
-    "main.f855e6bc.css.map": "/quizforsevenyears/static/css/main.f855e6bc.css.map",
-    "main.fb3dcba2.js.map": "/quizforsevenyears/static/js/main.fb3dcba2.js.map",
-    "453.b201ff92.chunk.js.map": "/quizforsevenyears/static/js/453.b201ff92.chunk.js.map"
+    "main.4c500d12.css.map": "/quizforsevenyears/static/css/main.4c500d12.css.map",
+    "main.67fb2079.js.map": "/quizforsevenyears/static/js/main.67fb2079.js.map",
+    "885.17866950.chunk.js.map": "/quizforsevenyears/static/js/885.17866950.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.fb3dcba2.js"
+    "static/css/main.4c500d12.css",
+    "static/js/main.67fb2079.js"
   ]
 }
