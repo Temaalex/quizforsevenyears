@@ -3,7 +3,7 @@ import Person from '../pictures/Person.png';
 
 
 const TheEnd = () => {
-
+  console.log(window.location.href)
   return (
     <main>
       <div className="header">

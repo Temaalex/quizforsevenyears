@@ -16,6 +16,7 @@ const ContentBox = () => {
       arr1.push(document.getElementById(index+1)?.value.replace(/\s/g, ""))
     }
     if(JSON.stringify(arr) === JSON.stringify(arr1)){
+      console.log(window.location.href)
       navigate('/1001')
       } else {
         for (let index = 0; index < arr.length; index++) {
