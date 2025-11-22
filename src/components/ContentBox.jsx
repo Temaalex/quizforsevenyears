@@ -8,15 +8,13 @@ const ContentBox = () => {
   const arr = ['н', 'о', 'в',
                'ы', 'й','г',
                'о', 'д', '!']
-
-  
+               
   const click = () => {
     const arr1 = [];
     for (let index = 0; index < arr.length; index++) {
       arr1.push(document.getElementById(index+1)?.value.replace(/\s/g, ""))
     }
     if(JSON.stringify(arr) === JSON.stringify(arr1)){
-      
       navigate('/TheEnd')
       } else {
         for (let index = 0; index < arr.length; index++) {
@@ -84,11 +82,7 @@ const ContentBox = () => {
     </div>
     <div>
       <p className='textForNumber'>9</p>
-      <input 
-      id='9'
-      className='boxForNumber'
-      
-      ></input>
+      <input id='9'className='boxForNumber'></input>
     </div>
   </div>
   </main>

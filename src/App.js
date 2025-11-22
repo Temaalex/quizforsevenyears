@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
 
-import QuizComp from './components/QuizComp';
-import QuizComp1 from './components/QuizComp1';
-import QuizComp2 from './components/QuizComp2';
+import QuizComp from './components/QuizComp.jsx';
+import QuizComp1 from './components/QuizComp1.jsx';
+import QuizComp2 from './components/QuizComp2.jsx';
 
 import QuizTest from './components/QuizTest.jsx';
 import QuizText from './components/QuizText.jsx';
 
-import Error from './components/ContentError.jsx'
-import ContentBox from "./components/ContentBox.jsx"
+import Error from './components/ContentError.jsx';
+import ContentBox from './components/ContentBox.jsx';
 import TheEnd from './components/TheEnd.jsx';
 
 
