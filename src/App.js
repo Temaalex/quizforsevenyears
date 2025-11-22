@@ -19,8 +19,7 @@ function App() {
       <Route path="/0" element={<Error/>} />
       {/* Открытие сундука */}
       <Route path="/1001" element={<ContentBox/>} />
-      {/* Конец */}
-      <Route path="/1000" element={<TheEnd/>} />
+      
 
 
       {/* все кроме */}
@@ -49,6 +48,10 @@ function App() {
       <Route path="/29" element={<QuizText/>} />
       {/* Девятый вопрос */}
       <Route path="/33" element={<QuizTest/>} />
+
+
+      {/* Конец */}
+      <Route path="/1000" element={<TheEnd/>} />
     </Routes>
   );
 }
