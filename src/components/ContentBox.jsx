@@ -10,14 +10,14 @@ const ContentBox = () => {
                'ы', 'й','г',
                'о', 'д', '!']
 
-  const [playSoundhitHeroes] = useSound(OpenBox);
+  const [playSound] = useSound(OpenBox);
   const click = () => {
     const arr1 = [];
     for (let index = 0; index < arr.length; index++) {
-      arr1.push(document.getElementById(index+1)?.value)
+      arr1.push(document.getElementById(index+1)?.value.replace(/\s/g, ""))
     }
     if(JSON.stringify(arr) === JSON.stringify(arr1)){
-      playSoundhitHeroes()
+      playSound()
       navigate('/TheEnd')
       } else {
         for (let index = 0; index < arr.length; index++) {
@@ -30,7 +30,6 @@ const ContentBox = () => {
           elements[index].style.background = '#00fa2e'
           }
         }
-        console.log(false)
       }
   }
 
@@ -43,7 +42,7 @@ const ContentBox = () => {
     <img className="Person" src={Person} alt="Person"/>
   </div>
   <div className="imgBox">
-    <p className='textBox'>Нажми на меня!</p>
+    <p className='textBox'>Заполните ячейки и нажмите на меня!</p>
     <img onClick={click} className="box" src={Box} alt="Box"/>
   </div>
   
@@ -86,7 +85,11 @@ const ContentBox = () => {
     </div>
     <div>
       <p className='textForNumber'>9</p>
-      <input id='9'className='boxForNumber'></input>
+      <input 
+      id='9'
+      className='boxForNumber'
+      
+      ></input>
     </div>
   </div>
   </main>
