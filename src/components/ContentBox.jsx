@@ -13,18 +13,18 @@ const ContentBox = () => {
   const click = () => {
     const arr1 = [];
     for (let index = 0; index < arr.length; index++) {
-      arr1.push(document.getElementById(index+1)?.value.replace(/\s/g, ""))
+      arr1.push(document.getElementById(index+1)?.value.replace(/\s/g, "").toLowerCase())
     }
     if(JSON.stringify(arr) === JSON.stringify(arr1)){
       console.log(window.location.href)
       navigate('/1001')
       } else {
         for (let index = 0; index < arr.length; index++) {
-          if (arr[index] !== arr1[index].toLowerCase()){
+          if (arr[index] !== arr1[index]){
           const elements = document.querySelectorAll('.boxForNumber')
           elements[index].style.background = 'red'
           }
-          if (arr[index] === arr1[index].toLowerCase()){
+          if (arr[index] === arr1[index]){
           const elements = document.querySelectorAll('.boxForNumber')
           elements[index].style.background = '#00fa2e'
           }
