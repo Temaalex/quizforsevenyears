@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/quizforsevenyears/static/css/main.4c500d12.css",
-    "main.js": "/quizforsevenyears/static/js/main.1417c6ba.js",
+    "main.js": "/quizforsevenyears/static/js/main.8e04478a.js",
     "static/js/885.17866950.chunk.js": "/quizforsevenyears/static/js/885.17866950.chunk.js",
     "static/media/pictureNumberOne.png": "/quizforsevenyears/static/media/pictureNumberOne.1f3ac8fb0ce90d3a5b46.png",
     "static/media/pictureNumberTwo.png": "/quizforsevenyears/static/media/pictureNumberTwo.97cf77fbc18656028c02.png",
@@ -13,11 +13,11 @@
     "static/media/gameOver.mp3": "/quizforsevenyears/static/media/gameOver.45be6961f91457a39a6d.mp3",
     "index.html": "/quizforsevenyears/index.html",
     "main.4c500d12.css.map": "/quizforsevenyears/static/css/main.4c500d12.css.map",
-    "main.1417c6ba.js.map": "/quizforsevenyears/static/js/main.1417c6ba.js.map",
+    "main.8e04478a.js.map": "/quizforsevenyears/static/js/main.8e04478a.js.map",
     "885.17866950.chunk.js.map": "/quizforsevenyears/static/js/885.17866950.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c500d12.css",
-    "static/js/main.1417c6ba.js"
+    "static/js/main.8e04478a.js"
   ]
 }
