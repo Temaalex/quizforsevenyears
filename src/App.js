@@ -18,7 +18,7 @@ function App() {
       {/* Ошибка в ответе */}
       <Route path="/0" element={<Error/>} />
       {/* Открытие сундука */}
-      <Route path="/1001" element={<ContentBox/>} />
+      <Route path="/1000" element={<ContentBox/>} />
       
 
 
@@ -51,7 +51,7 @@ function App() {
 
 
       {/* Конец */}
-      <Route path="/1000" element={<TheEnd/>} />
+      <Route path="/1001" element={<TheEnd/>} />
     </Routes>
   );
 }
