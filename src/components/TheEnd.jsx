@@ -7,7 +7,7 @@ const TheEnd = () => {
     <main>
       <div className="header">
       <div className="TextOfDoctor">
-        <p className="ConnentOfDoctor">Вы справились! 100% послушные дети! Подарки спрятаны в прихоже.</p>
+        <p className="ConnentOfDoctor">Вы справились! 100% послушные дети! Подарки спрятаны в прихожей.</p>
       </div>
       <img className="Person"src={Person}alt="Person"/>
     </div>
