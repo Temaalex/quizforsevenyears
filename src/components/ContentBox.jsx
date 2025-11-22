@@ -1,10 +1,11 @@
 import Person from '../pictures/Person.png';
 import Box from '../pictures/Box.png';
 import { useNavigate } from "react-router-dom"
-
+import useSound from 'use-sound'; 
+import win from '../sound/win.mp3'
 
 const ContentBox = () => {
-  
+  const [playSound] = useSound(win);
   let navigate = useNavigate();
   const arr = ['н', 'о', 'в',
                'ы', 'й','г',
@@ -16,7 +17,7 @@ const ContentBox = () => {
       arr1.push(document.getElementById(index+1)?.value.replace(/\s/g, "").toLowerCase())
     }
     if(JSON.stringify(arr) === JSON.stringify(arr1)){
-      console.log(window.location.href)
+      playSound()
       navigate('/1001')
       } else {
         for (let index = 0; index < arr.length; index++) {
