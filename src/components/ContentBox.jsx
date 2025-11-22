@@ -15,7 +15,7 @@ const ContentBox = () => {
       arr1.push(document.getElementById(index+1)?.value.replace(/\s/g, ""))
     }
     if(JSON.stringify(arr) === JSON.stringify(arr1)){
-      navigate('/TheEnd')
+      navigate('/1000')
       } else {
         for (let index = 0; index < arr.length; index++) {
           if (arr[index] !== arr1[index].toLowerCase()){

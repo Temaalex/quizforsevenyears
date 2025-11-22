@@ -1,15 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
 
-import QuizComp from './components/QuizComp.jsx';
-import QuizComp1 from './components/QuizComp1.jsx';
-import QuizComp2 from './components/QuizComp2.jsx';
+import QuizComp from './components/QuizComp';
+import QuizComp1 from './components/QuizComp1';
+import QuizComp2 from './components/QuizComp2';
 
-import QuizTest from './components/QuizTest.jsx';
-import QuizText from './components/QuizText.jsx';
+import QuizTest from './components/QuizTest';
+import QuizText from './components/QuizText';
 
-import Error from './components/ContentError.jsx';
-import ContentBox from './components/ContentBox.jsx';
-import TheEnd from './components/TheEnd.jsx';
+import Error from './components/ContentError';
+import ContentBox from './components/ContentBox';
+import TheEnd from './components/TheEnd';
 
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
       {/* Ошибка в ответе */}
       <Route path="/0" element={<Error/>} />
       {/* Открытие сундука */}
-      <Route path="/ContentBox" element={<ContentBox/>} />
+      <Route path="/1001" element={<ContentBox/>} />
       {/* Конец */}
-      <Route path="/TheEnd" element={<TheEnd/>} />
+      <Route path="/1000" element={<TheEnd/>} />
 
 
       {/* все кроме */}
