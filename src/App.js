@@ -8,7 +8,7 @@ import QuizTest from './components/QuizTest.jsx';
 import QuizText from './components/QuizText.jsx';
 
 import Error from './components/ContentError.jsx'
-import ContentBox from "./components/ContentBox"
+import ContentBox from "./components/ContentBox.jsx"
 import TheEnd from './components/TheEnd.jsx';
 
 
